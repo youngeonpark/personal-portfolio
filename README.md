@@ -38,7 +38,7 @@ To view and interact with this portfolio locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yepp0502/personal-portfolio.git
+   git clone https://github.com/youngeonpark/personal-portfolio.git
    
 2. Navigate to the project directory:
    ```bash
@@ -57,7 +57,7 @@ To view and interact with this portfolio locally:
 ## Deployment
 
 This portfolio is deployed using GitHub Pages. You can view it live at:
-[https://yepp0502.github.io/personal-portfolio/](https://yepp0502.github.io/personal-portfolio/)
+[https://yepp0502.github.io/personal-portfolio/](https://youngeonpark.github.io/personal-portfolio/)
 
 ## Technologies Used
 
