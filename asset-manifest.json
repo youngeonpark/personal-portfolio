@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.334a01da.css",
-    "main.js": "/personal-portfolio/static/js/main.6bda0a2c.js",
+    "main.css": "/personal-portfolio/static/css/main.020e882a.css",
+    "main.js": "/personal-portfolio/static/js/main.e5091a5e.js",
     "static/js/208.6e6da685.chunk.js": "/personal-portfolio/static/js/208.6e6da685.chunk.js",
     "static/js/293.fc420121.chunk.js": "/personal-portfolio/static/js/293.fc420121.chunk.js",
     "static/js/917.8329b092.chunk.js": "/personal-portfolio/static/js/917.8329b092.chunk.js",
@@ -15,8 +15,8 @@
     "static/media/MigraItalic-ExtralightItalic.ttf": "/personal-portfolio/static/media/MigraItalic-ExtralightItalic.96f5545f2eb857128551.96f5545f2eb857128551.ttf",
     "static/media/SaintGeorge-LowercaseStencil.ttf": "/personal-portfolio/static/media/SaintGeorge-LowercaseStencil.6a0acba5b7c31a6628c5.6a0acba5b7c31a6628c5.ttf",
     "index.html": "/personal-portfolio/index.html",
-    "main.334a01da.css.map": "/personal-portfolio/static/css/main.334a01da.css.map",
-    "main.6bda0a2c.js.map": "/personal-portfolio/static/js/main.6bda0a2c.js.map",
+    "main.020e882a.css.map": "/personal-portfolio/static/css/main.020e882a.css.map",
+    "main.e5091a5e.js.map": "/personal-portfolio/static/js/main.e5091a5e.js.map",
     "208.6e6da685.chunk.js.map": "/personal-portfolio/static/js/208.6e6da685.chunk.js.map",
     "293.fc420121.chunk.js.map": "/personal-portfolio/static/js/293.fc420121.chunk.js.map",
     "917.8329b092.chunk.js.map": "/personal-portfolio/static/js/917.8329b092.chunk.js.map",
@@ -28,7 +28,7 @@
     "453.b21437c2.chunk.js.map": "/personal-portfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.334a01da.css",
-    "static/js/main.6bda0a2c.js"
+    "static/css/main.020e882a.css",
+    "static/js/main.e5091a5e.js"
   ]
 }
