@@ -89,7 +89,7 @@
     text-align: left;
     font-size: 18px;
     border-radius: 5%;
-    padding: 0.5em 0.5em 1.8em 1.4em;
+    padding: 0.5em 0.5em 1.6em 1.4em;
     visibility: hidden;
 }
 
@@ -170,7 +170,19 @@
     color: #ff7c01;
 }
 .projects-container .info-container .tags #tag4 {
-    color: #200EEF;
+    color: #8524c9;
+}
+.projects-container .info-container .tags #tag5 {
+    color: #0812c9;
+}
+.projects-container .info-container .tags #tag6 {
+    color: #d40d0d;
+}
+.projects-container .info-container .tags #tag7 {
+    color: #0d6dd4;
+}
+.projects-container .info-container .tags #tag8 {
+    color: #29d6a8;
 }
 
 .help-container {
@@ -180,8 +192,9 @@
     background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 7px;
-    margin-left: 1.5em;
-    margin-top: 2.15em;
+    margin-left: 8em;
+    margin-top: -3.2em;
+    margin-bottom: 0.5em;
 }
 
 .help-container #flash {

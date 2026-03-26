@@ -203,10 +203,13 @@ export default function Projects() {
         }
         
         function points4Clicked() {
+            ideaRender();
             if (points1 && points2 && points3 && points4) {
-                setCurrentVisibilityInfo('hidden');
-                setCurrentVisibilityDot('hidden');
-                setCurrentVisibilityIdea('hidden');
+                handleClick1Dot();
+                setCurrentYr(3);
+                setCurrentVisibilityInfo('visible');
+                setCurrentVisibilityDot('visible');
+                setCurrentVisibilityIdea('visible');
                 if (points4.style.backgroundPosition !== 'left bottom') {
                     if (points3.style.backgroundPosition === 'left bottom') {
                         points4.style.backgroundPosition = 'left bottom';
@@ -249,10 +252,13 @@ export default function Projects() {
         }
         
         function points5Clicked() {
+            ideaRender();
             if (points1 && points2 && points3 && points4 && points5) {
-                setCurrentVisibilityInfo('hidden');
-                setCurrentVisibilityDot('hidden');
-                setCurrentVisibilityIdea('hidden');
+                handleClick1Dot();
+                setCurrentYr(4);
+                setCurrentVisibilityInfo('visible');
+                setCurrentVisibilityDot('visible');
+                setCurrentVisibilityIdea('visible');
                 if (points5.style.backgroundPosition !== 'left bottom') {
                     if (points4.style.backgroundPosition === 'left bottom') {
                         points5.style.backgroundPosition = 'left bottom';
@@ -365,6 +371,30 @@ export default function Projects() {
                                 createElement('span', null, 'python'))
                         );
                     }
+                    if (p.streamlitTag) {
+                        tags.push(
+                            createElement('li', { id: 'tag5' },
+                                createElement('span', null, 'streamlit'))
+                        );
+                    }
+                    if (p.datavisTag) {
+                        tags.push(
+                            createElement('li', { id: 'tag6' },
+                                createElement('span', null, 'data visualization'))
+                        );
+                    }
+                    if (p.phyTag) {
+                        tags.push(
+                            createElement('li', { id: 'tag7' },
+                                createElement('span', null, 'physical computing'))
+                        );
+                    }
+                    if (p.databaseTag) {
+                        tags.push(
+                            createElement('li', { id: 'tag8' },
+                                createElement('span', null, 'database'))
+                        );
+                    }
                     return tags;
                 }
                 projElements.push(
@@ -374,8 +404,9 @@ export default function Projects() {
                             <p id="title"><a href={p.a} target="_blank" rel="noreferrer">{p.title}</a></p>
                             <p id="date">{p.date}</p>
                             <ul id="bullet">
-                                <li id="point">{p.point1}</li>
-                                <li id="point">{p.point2}</li>
+                                {[p.point1, p.point2, p.point3, p.point4].filter(point => point).map((point, index) => (
+                                    <li key={index} id="point">{point}</li>
+                                ))}
                             </ul>
                         </div>
                         <div className='tags'>
@@ -411,19 +442,22 @@ export default function Projects() {
                     <span className="years">2025</span>
                 </div>
             </div>
+            <div className="help-container" ref={ideaRef} style={{visibility: currentVisibilityIdea }}>
+                <img src={flashImage} id="flash" alt="idea" />
+                <p>Click on the title of each project to access it!</p>
+            </div>
             <div className="content-container">
                 <div className="slider">
                     <button className="dot" id="dot1" onClick={() => handleClick1Dot()} style={{ opacity: 1 , visibility: currentVisiblityDot }}></button>
-                    <button className="dot" id="dot2" onClick={() => handleClick2Dot()} style={{ opacity: 0.55, visibility: currentVisiblityDot }}></button>
+                    {projectData[currentYr]?.length >= 2 && (
+                        <button className="dot" id="dot2" onClick={handleClick2Dot} style={{ opacity: 0.55, visibility: currentVisiblityDot }} />
+                    )}
                 </div>
                 <div className="info-place">
                     {projElements[currentProject]}
                 </div>
             </div>
-            <div className="help-container" ref={ideaRef} style={{visibility: currentVisibilityIdea }}>
-                <img src={flashImage} id="flash" alt="idea" />
-                <p>Click on the title of each project to access it!</p>
-            </div>
+            
         </div>
     );
 }

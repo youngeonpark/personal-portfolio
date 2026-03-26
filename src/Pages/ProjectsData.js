@@ -9,7 +9,7 @@ export const projectData = [
             dataTag: false,
             javaTag: false,
             pythonTag: true,
-            a: 'https://github.com/yepp0502/Learn-It-.git'
+            a: 'https://github.com/youngeonpark/Learn-It-.git'
         },
         {
             title: 'Sleep Deprivation and the Consumption of Caffeine',
@@ -20,7 +20,7 @@ export const projectData = [
             dataTag: false,
             javaTag: false,
             pythonTag: false,
-            a: 'https://yepp0502.github.io/Sleep-Deprivation-and-the-Consumption-of-Caffeine/'
+            a: 'https://youngeonpark.github.io/Sleep-Deprivation-and-the-Consumption-of-Caffeine/'
 
         }
     ],
@@ -34,7 +34,7 @@ export const projectData = [
             dataTag: false,
             javaTag: false,
             pythonTag: false,
-            a: 'https://yepp0502.github.io/Sleep-Deprivation-and-the-Consumption-of-Caffeine/'
+            a: 'https://youngeonpark.github.io/Sleep-Deprivation-and-the-Consumption-of-Caffeine/'
         },
         {
             title: 'digitalbridge',
@@ -45,7 +45,7 @@ export const projectData = [
             dataTag: false,
             javaTag: false,
             pythonTag: false,
-            a: 'https://yepp0502.github.io/digitalbridge/'
+            a: 'https://youngeonpark.github.io/digitalbridge/'
         }
     ],
     [
@@ -58,7 +58,7 @@ export const projectData = [
             dataTag: false,
             javaTag: false,
             pythonTag: false,
-            a: 'https://yepp0502.github.io/ASLearn/'
+            a: 'https://youngeonpark.github.io/ASLearn/'
         },
         {
             title: 'Java Data Structures',
@@ -72,6 +72,48 @@ export const projectData = [
             a: 'https://drive.google.com/file/d/1FE_og0mSAlSEzL4rh4CnSnxIaS3WpWFU/view?usp=sharing'
         }
     ],
-    [],
-    []
+    [
+        {
+            title: 'Boston College Campus School Project',
+            date: 'September 2024 - November 2024',
+            point1: 'Designed and built an interactive claw machine toy for children with Down syndrome at the Campus School, using 3D printing and coding to enhance accessibility and engagement',
+            point2: "Developed a customized interactive experience, ensuring that the toy met the children's motor and cognitive needs, showcasing problem-solving, adaptability, and an understanding of disability accommodations",
+            webTag: false,
+            dataTag: false,
+            javaTag: false,
+            pythonTag: true,
+            phyTag: true,
+            a: 'https://www.instructables.com/member/parkbpx/instructables/'
+        },
+        {
+            title: 'SlumberMeter',
+            date: 'November 2024 - December 2024 ',
+            point1: "(website not available due to changes in the Glitch IDE)",
+            point2: "Redesigned the entirety of the UI of SlumberMeter to enhance visual appeal and user experience", 
+            point3: "Integrated cleaned data into dynamic UI components, like charts, with real-time feedback",
+            point4: "Implemented localStorage to enable basic backend functionality for storing and manipulating user sleep data",
+            webTag: true,
+            dataTag: false,
+            databaseTag: true,
+            javaTag: false,
+            pythonTag: false,
+            a: 'https://slumbermeter.glitch.me'
+        }
+    ],
+    [
+        {
+            title: 'Global GDP Growth Dashboard',
+            date: 'June 2025 - July 2025',
+            point1: 'Created an interactive GDP growth analytics dashboard using Python & Streamlit to explore global economic trends',
+            point2: "Applied data preprocessing and visualization techniques to convert complex data into user-friendly visual insights", 
+            point3: "Enabled comparative analysis across countries and time ranges through interactive filtering and charting",
+            webTag: false,
+            dataTag: false,
+            javaTag: false,
+            pythonTag: false,
+            streamlitTag: true,
+            datavisTag: true,
+            a: 'https://global-gdp-growth-smjzveywvxbnbhgzgxdz8e.streamlit.app/'
+        },
+    ]
 ]

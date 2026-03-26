@@ -28,6 +28,33 @@ export default function WorkExperience() {
                     </p>
                 </div>
             </div>
+
+            
+            <div className="college-container">
+                <div className="info">
+                    <p > 
+                        <b>CVM-Enterprises, LLC </b>| UI/UX & Front-End Developer Intern
+                        <br />June 2025 - December 2025
+                    </p>
+                    <p className='content'>
+                        Developed and maintained front-end architecture for digital platforms supporting reentry and wellness initiatives using React, HTML, CSS, and JavaScript, optimizing accessibility and performance
+                        <br /> Led UI/UX design in Figma, supervising team members’ design contributions and translating wireframes into interactive React components
+                    </p>
+                </div>
+            </div>
+
+            <div className="college-container" id="edr">
+                <div className="info">
+                    <p > 
+                        <b>Educational Division Reform </b>| Classroom Coordinator
+                        <br /> June 2025 - July 2025
+                    </p>
+                    <p className='content'>
+                        Coordinated classroom activities, mentoring 6th-grade and high school students, maintaining structured learning environments for 219 service hours
+                        <br />Received a mayoral recognition award from Brockton for community service excellence
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }

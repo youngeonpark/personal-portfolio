@@ -1,9 +1,9 @@
 .workexperience-container {
     /* border: 1px solid black; */
-    position: absolute;
     background-color: transparent;
-    width: 70em;
-    margin-left: -58em;
+    width: 72.5em;
+    right: 0;
+    margin-left: -60em;
     margin-top: -18em;
     font-size: 18.5px;
     line-height: 1.05em;
@@ -12,11 +12,16 @@
     display: block;
 }
 
+.workexperience-container .info, .content {
+    background-color: transparent;
+}
+
 .workexperience-container .highskl-container{
     display: flex;
     justify-content: space-around;
     width: 65em;
     margin: 0 auto;
+    gap: 2.5em;
     opacity: 0;
     animation: fade-in 2s 0.5s ease-in-out forwards;
 }
@@ -27,6 +32,19 @@
 
 .workexperience-container .highskl-container .info .content {
     margin-left: 0.8em;
+}
+
+.workexperience-container .college-container {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    width: 30em;
+    margin: 1.5em 0 0 0;
+    opacity: 0;
+    animation: fade-in 2s 1s ease-in-out forwards;
+}
+#edr {
+    width: 26em;
 }
 
 @keyframes fade-in {

@@ -57,11 +57,13 @@ export default function Education() {
                     <br />Morrissey College of Arts & Sciences									   
                     <br /><em>Bachelors of Arts in Computer Science</em>
                     <br /><b>GPA: 3.67/4.00</b>
-                    <br /><em>Relevant Coursework:</em> &emsp;Computer Science II
-                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Calculus II
+                    <br /><em>Relevant Coursework:</em> &emsp;Data Structures &#40;Java, C++&#41;
+                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Web Application Development
                     <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Logic & Computation
-                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Computer Organization & Lab
-                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Randomness & Computation <br />
+                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Physical Computing
+                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Data Visualization
+                    <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Computer Systems &#40;C&#41;
+                    <br />
                     <br /><em>Honors:</em>&emsp;&ensp;BCCSS Hack the Heights Hackathon | 
                     <br /><em>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Best Hack in Beginner Track & 
                     <br />&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Best Accessibility Hack</em>
