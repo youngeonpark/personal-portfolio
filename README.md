@@ -57,7 +57,7 @@ To view and interact with this portfolio locally:
 ## Deployment
 
 This portfolio is deployed using GitHub Pages. You can view it live at:
-[https://yepp0502.github.io/personal-portfolio/](https://youngeonpark.github.io/personal-portfolio/)
+[https://youngeonpark.github.io/personal-portfolio/](https://youngeonpark.github.io/personal-portfolio/)
 
 ## Technologies Used
 
