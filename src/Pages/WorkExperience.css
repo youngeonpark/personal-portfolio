@@ -10,6 +10,7 @@
     font-family: "Gupter", serif;
     text-align: start;
     display: block;
+    z-index: 0;
 }
 
 .workexperience-container .info, .content {
@@ -19,6 +20,7 @@
 .workexperience-container .highskl-container{
     display: flex;
     justify-content: space-around;
+    background-color: transparent;
     width: 65em;
     margin: 0 auto;
     gap: 2.5em;

@@ -21,9 +21,9 @@ export default function RoomElement() {
     
     function enlargeObj() {
         if (room.current) {
-            room.current.scale.x = 0.7;
-            room.current.scale.y = 0.7;
-            room.current.scale.z = 0.7;
+            room.current.scale.x = 1;
+            room.current.scale.y = 1;
+            room.current.scale.z = 1;
         }
     }
     
@@ -43,7 +43,7 @@ export default function RoomElement() {
     useEffect(() => {
         switch (location.pathname) {
             case '/home':
-                setPosition({ top: '1em', left: '30.5vh' });
+                setPosition({ top: '8em', left: '30.5vh' });
                 setVisibility('visible');
                 enlargeObj();
                 break;
