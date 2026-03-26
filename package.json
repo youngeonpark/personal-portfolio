@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
-  "version": "0.2.0",
-  "homepage": "https://youngeonpark.github.io/personal-portfolio/",
+  "version": "0.1.0",
+  "homepage": "https://youngeonpark.github.io/personal-portfolio",
   "private": true,
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
