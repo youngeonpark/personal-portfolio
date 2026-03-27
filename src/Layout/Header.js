@@ -45,7 +45,7 @@ export default function Header() {
         <>
         
         <div className="header-container">
-            <h1><a href="https://drive.google.com/file/d/1RLG-GLlE9HULf1_XqfX7ZrAIkGMXiAi6/view?usp=sharing" target="_blank" rel="noreferrer">portfolio</a></h1>
+            <h1><a href={`${process.env.PUBLIC_URL}/Resume_Youngeon(Evelyn).pdf`} target="_blank" rel="noreferrer">portfolio</a></h1>
             <div className="portfolio-line"></div>
             <div className="links">
                 <Link to="/education" className='nav-el' id='edu-label' ref={ educationRef }>education</Link>
